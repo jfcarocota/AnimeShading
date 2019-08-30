@@ -10,8 +10,9 @@
 		[HDR]
 		_RimColor("Rim Color", Color) = (1,1,1,1)
 		_RimAmount("Rim Amount", Range(0, 1)) = 0.716
-		_RimThreshold("Rim Threshold", Range(0, 1)) = 0.1		
-
+		_RimThreshold("Rim Threshold", Range(0, 1)) = 0.1	
+		_OutlineColor("Outline Color", Color) = (1, 1, 1, 1)
+		_Outline("Outline", Range(0.002, 0.1)) = 0.003
 	}
 	SubShader {
 
